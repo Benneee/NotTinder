@@ -1,4 +1,4 @@
-## Profile Scroller
+## NotTinder
 
 A pretend dating app
 
