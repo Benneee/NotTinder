@@ -12,14 +12,33 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous">
 
-  <title>Profile Scroller</title>
+  <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+
+  <title>!Tinder</title>
+
+  <style>
+    body {
+      background: url('/love.jpeg') no-repeat;
+      overflow: hidden;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      font-family: 'Stylish', sans-serif;
+      font-size: 1.5em;
+    }
+
+    h1 {
+      background-color: #337AB7;
+      width: 100%;
+    }
+  </style>
 </head>
 
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-md-6 mx-auto">
-        <h1 class="mb-3 text-secondary">Profile Scroller</h1>
+      <div class="col-md-6 mx-auto text-center">
+        <h1 class="mb-3 ">!Tinder</h1>
         <div id="imageDisplay"></div>
 
         <br>
@@ -27,7 +46,7 @@
 
         <br>
 
-        <button id="next" class="btn btn-dark btn-block">Next</button>
+        <button id="next" class="btn btn-primary btn-block">Next</button>
       </div>
     </div>
   </div>
@@ -44,6 +63,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
+  <script src="data.js"></script>
   <script src="app.js"></script>
 </body>
 
